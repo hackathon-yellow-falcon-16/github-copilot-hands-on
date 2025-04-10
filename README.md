@@ -1,32 +1,81 @@
-# Project Name
+# GitHub Copilot Hands-on Labs
 
-(short, 1-3 sentenced, description of the project)
+Welcome to the GitHub Copilot Hands-on Labs repository. This repository provides a collaborative environment for experimenting with GitHub Copilot across various languages and frameworks through hands-on demos.
 
-## Features
+## Purpose
 
-This project framework provides the following features:
+This repository is designed to:
 
-* Feature 1
-* Feature 2
-* ...
+- Provide a practical learning environment to explore GitHub Copilot.
+- Showcase demos that span different programming languages, deployment scenarios, and integrations.
+- Serve as a community-driven resource where developers can contribute their own demos and enhancements.
+
+## What's Included
+
+- [GitHub Copilot Hackathon](#github-copilot-hands-on)
+  - [Pre-requisites](#pre-requisites)
+- [Labs](#labs)
+  - [Python](#python)
+  - [Java](#java)
+  - [JavaScript & HTML](#html)
+  - ...
 
 ## Getting Started
 
-### Prerequisites
+- x
 
-(ideally very short, if any)
+## Pre-requisites
 
-- OS
-- Library version
-- ...
+**GitHub Copilot access**
 
-### Installation
+Users should hve access to copilot licenses. If you still do not have an active Copilot license, request your copilot admin to assign you a copilot seat.
 
-(ideally very short)
 
-- npm install [package name]
-- mvn install
-- ...
+### IDE Extensions
+
+Install the Copilot Extension for you IDE:
+
+- [Visual Studio Code Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
+- [Visual Studio 2022 Copilot Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022)
+- [Visual Studio 2022 Copilot Chat Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022)
+- [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
+
+### Work locally
+
+**VisualStudio Code**
+
+https://code.visualstudio.com/
+
+**Install Docker (Optional)**
+
+https://docs.docker.com/engine/install/
+
+**For Nodejs**
+
+- [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Install mocha: 
+
+Run:
+
+``` bash
+ npm install --global mocha
+ npm install axios
+```
+
+**For .NET**
+
+[Install .Net](https://dotnet.microsoft.com/download)
+
+**For Java**
+
+- [Install Java](https://learn.microsoft.com/en-us/java/openjdk/install)
+- [Install Maven](https://maven.apache.org/install.html)
+
+**For Python**
+- [Install Python](https://www.python.org/downloads/)
+
+**For C++**
+- [Install cmake](https://cmake.org/download/)
 
 ### Quickstart
 (Add steps to get up and running quickly)
@@ -35,19 +84,6 @@ This project framework provides the following features:
 2. cd [repository name]
 3. ...
 
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
 ## Resources
 
 (Any additional resources or related projects)
@@ -55,3 +91,6 @@ To run the demo, follow these steps:
 - Link to supporting information
 - Link to similar sample
 - ...
+---
+
+Happy coding and exploring GitHub Copilot!
