@@ -54,6 +54,6 @@
   "runArgs": [
     "--health-cmd=mvn --version --timeout=5s --interval=10s --retries=3"
   ],
-  "onCreateCommand": "mvn initialize",
+  "onCreateCommand": "mvn -f labs/java/crudapp/demo/pom.xml initialize && mvn -f labs/java/starwarsapi/pom.xml initialize",
   "postCreateCommand": "([ -d github-mcp-server ] || git clone https://github.com/github/github-mcp-server.git); cd github-mcp-server && go build -o cmd/github-mcp-server/github-mcp-server ./cmd/github-mcp-server; pip install --upgrade pip && pip install black flake8 pytest requests"
 }
